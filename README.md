@@ -1,7 +1,7 @@
-![Hyperledger Sawtooth](https://raw.githubusercontent.com/hyperledger/sawtooth-core/master/images/sawtooth_logo_light_blue-small.png) 
-# Hyperledger Sawtooth SDK for Go
+![Sawtooth](https://raw.githubusercontent.com/splintercommunity/sawtooth-core/master/images/sawtooth_logo_light_blue-small.png)
+# Sawtooth SDK for Go
 
-*Hyperledger Sawtooth* is an enterprise solution for building, deploying, and
+*Sawtooth* is an enterprise solution for building, deploying, and
 running distributed ledgers (also called blockchains). It provides an
 extremely modular and flexible platform for implementing transaction-based
 updates to shared state between untrusted parties coordinated by consensus
@@ -13,15 +13,14 @@ These include modules to sign Transactions, read state, and create Transaction
 Processors. For full usage and installation instructions please reference the
 official Sawtooth documentation below:
 
-* [Hyperledger Sawtooth Official Documentation](https://sawtooth.hyperledger.org/docs/)
-* [Sawtooth Application Developer's Guide](https://sawtooth.hyperledger.org/docs/core/releases/latest/app_developers_guide.html)
-* [Sawtooth Go SDK Guide](https://sawtooth.hyperledger.org/docs/core/releases/latest/app_developers_guide/go_sdk.html)
+* [Sawtooth Official Documentation](https://sawtooth.splinter.dev/)
+* [Sawtooth Application Developer's Guide](https://sawtooth.splinter.dev/docs/1.2/app_developers_guide/)
 
 ## Quickstart Instructions
 
 To start using the SDK in your project, simply run inside your project root:
 ```
-go get github.com/hyperledger/sawtooth-sdk-go
+go get github.com/splintercommunity/sawtooth-sdk-go
 ```
 As of `v0.1.4`, this SDK is a *Go Module* and can simply be installed and without a further code generation step.
 For earlier versions, you must follow the instructions below to generate `protobuf` code with `go generate`.
